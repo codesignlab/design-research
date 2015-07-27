@@ -3,15 +3,14 @@ markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
-relative_permalinks: true
+permalink:        none
 
 # Setup
 title:            Design Research Is
 tagline:          'Design research techniques and case studies'
 description:      'Design research techniques and case studies'
 url:              http://heyitsolivia.github.io/design-research
-baseurl:          /design-research/
+baseurl:          '/design-research'
 
 author:
   name:
