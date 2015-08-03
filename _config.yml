@@ -9,8 +9,8 @@ permalink:        none
 title:            Design Research Is
 tagline:          'Design research techniques and case studies'
 description:      'Design research techniques and case studies'
-url:              http://heyitsolivia.github.io/design-research
-baseurl:          '/design-research'
+url:              http://designresearch.is
+baseurl:
 
 author:
   name:
@@ -21,4 +21,4 @@ paginate:         5
 # Custom vars
 
 github:
-  repo:           https://github.com/heyitsolivia/design-research
+  repo:           https://github.com/codesignlab/design-research
