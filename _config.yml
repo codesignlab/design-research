@@ -5,6 +5,12 @@ highlighter:      pygments
 # Permalinks
 permalink:        none
 
+# Collections
+collections:
+  case_studies:
+    output: true
+    permalink: /solving/:path/
+
 # Setup
 title:            Design Research Is
 tagline:          'Design research techniques and case studies'
