@@ -10,6 +10,9 @@ collections:
   case_studies:
     output: true
     permalink: /solving/:path/
+  techniques:
+    output: true
+    permalink: /:path/
 
 # Setup
 title:            Design Research Is
