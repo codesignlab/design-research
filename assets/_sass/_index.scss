@@ -4,21 +4,26 @@ main {
     margin: 0;
 }
 
-.header--title {
+.header {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.header--overview {
     position: absolute;
-    text-align: center;
+    top: 100px;
+    z-index: 1;
+}
+.header--title {
     width: 100%;
-    top: 150px;
 }
 
 .header-description {
-    position: absolute;
-    text-align: center;
     width: 100%;
-    top: 225px;
 }
 
 video {
     object-fit: cover;
     width: 100%;
+    height: 400px;
 }
