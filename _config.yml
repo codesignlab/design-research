@@ -27,6 +27,11 @@ author:
 
 paginate:         5
 
+# Sass
+
+sass:
+    sass_dir: assets/_sass
+
 # Custom vars
 
 github:
