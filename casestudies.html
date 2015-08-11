@@ -1,0 +1,10 @@
+---
+layout: default
+title: Case Studies
+---
+
+<h1>Case Studies</h1>
+
+{% for case_studies in site.case_studies %}
+    <h2><a href="{{ case_studies.url }}">{{ case_studies.title }}</a></h2>
+{% endfor %}

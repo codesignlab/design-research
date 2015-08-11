@@ -1,0 +1,10 @@
+---
+layout: default
+title: Techniques
+---
+
+<h1>Techniques</h1>
+
+{% for techniques in site.techniques %}
+    <h2><a href="{{ techniques.url }}">{{ techniques.title }}</a></h2>
+{% endfor %}
