@@ -4,6 +4,10 @@ main {
     margin: 0;
 }
 
+p {
+font-family: $font-family-serif;
+}
+
 .header {
   position: relative;
   margin-bottom: 50px;
@@ -13,17 +17,37 @@ main {
     position: absolute;
     top: 100px;
     z-index: 1;
+    border-left: 5px solid #f6dc2c;
+    margin-left: -30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 25px;
 }
 .header--title {
-    width: 100%;
+    margin-top: 0;
+    letter-spacing: -1px;
+    font-family: "flood-std", $font-family-sans-serif;
+    font-size: 50px;
 }
 
 .header-description {
-    width: 100%;
+    font-family: $font-family-sans-serif;
+    font-size: 22px;
+    margin-bottom: 50px;
 }
 
 video {
     object-fit: cover;
     width: 100%;
-    height: 400px;
+    opacity: .5;
+    background: url('/assets/images/designresearch-background.jpg');
+    // height: 400px;
+}
+
+.btn {
+    padding: 8px 25px;
+
+    & + .btn {
+        margin-left: 10px;
+    }
 }
