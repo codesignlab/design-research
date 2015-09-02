@@ -4,26 +4,80 @@ main {
     margin: 0;
 }
 
+p {
+    font-family: $font-family-serif;
+}
+
 .header {
-  position: relative;
-  margin-bottom: 50px;
+    position: relative;
+    margin-bottom: 50px;
+    overflow-x: hidden;
+    background: #fff;
+
+    @media (min-width: $screen-xs) {
+        overflow: hidden;
+        height: 475px;
+    }
 }
 
 .header--overview {
     position: absolute;
-    top: 100px;
+    top: 125px;
     z-index: 1;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    
+    @media (min-width: $screen-sm) {
+        top: 150px;
+    }
 }
+
 .header--title {
-    width: 100%;
+    margin-top: 0;
+    letter-spacing: -1px;
+    font-family: "flood-std", $font-family-sans-serif;
+    font-size: 50px;
 }
 
 .header-description {
-    width: 100%;
+    font-family: $font-family-sans-serif;
+    font-size: 22px;
+    margin-bottom: 50px;
+    max-width: 25em;
+    letter-spacing: -0.5px;
 }
 
-video {
+.intro-img {
+    opacity: .75;
+}
+
+.intro-video {
     object-fit: cover;
     width: 100%;
-    height: 400px;
+    opacity: .5;
+    background: url('/assets/images/designresearch-background.jpg');
+}
+
+.btn {
+    padding: 8px 16px;
+    display: block;
+    width: calc(100% - 15px);
+    
+    @media (min-width: $screen-xs) {
+        display: inline-block;
+        width: auto;
+    }
+
+    @media (min-width: $screen-sm) {
+        padding: 8px 25px;
+    }
+
+    & + .btn {
+        margin-top: 10px;
+
+        @media (min-width: $screen-xs) {
+            margin-left: 10px;
+            margin-top: 0px;
+        }
+    }
 }
