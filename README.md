@@ -26,3 +26,7 @@ Design Research has two branches, but only one is used for active development.
 
 Use `master` for development. All pull requests should be submitted against master.
 We use `gh-pages` for our hosted site. Avoid using this branch.
+
+## License
+
+The content of this project itself is licensed under the [Creative Commons Attribution 4.0 license](https://creativecommons.org/licenses/by/4.0/), and the underlying source code used to format and display that content is licensed under the [MIT license](http://opensource.org/licenses/mit-license.php).
